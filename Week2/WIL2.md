@@ -16,7 +16,8 @@ plt.pie([23,49,72])
 ```
 <br>
 결과(왼쪽 위부터 시계방향으로 plot, bar, scatter, pie):<br>
-![](output.png)
+
+![](./output.png)
 
 * **.plot()** : 선그래프
 * **.bar()** : 막대그래프
