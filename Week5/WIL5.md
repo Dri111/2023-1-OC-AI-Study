@@ -164,7 +164,7 @@ plot_tree(tree_clf)
 <br><br><br>
 ## 다른모델은 어떰? - Random Forest
 ---
-이름에서 유추해 볼 수 있듯이 Random Forest Model은 여러 개의 Decision Tree를 학습하는 모델이다~~(대충 나무가 여러개니 숲이라는 뜻)~~.<Br>
+이름에서 유추해 볼 수 있듯이 Random Forest Model은 여러 개의 Decision Tree를 학습하는 모델이다 ~~(대충 나무가 여러개니 숲이라는 뜻)~~.<Br>
 사용 방법은 비슷하다.
 
 ```python
