@@ -455,6 +455,7 @@ weighted avg       0.97      0.97      0.97       114
 ![](./wilImage/img9.png)
 ![](./wilImage/img10.png)
 ![](./wilImage/img11.png)
+~~(SVC 대다내\~\~\~\~)~~
 # 참고문헌
 - 지도학습   
   + https://opentutorials.org/course/4548/28945    
