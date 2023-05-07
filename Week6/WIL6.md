@@ -369,7 +369,9 @@ Random Counter({1: 2813, 0: 2813})
 SMOTE Counter({1: 2813, 0: 2813})
 ADASYN Counter({0: 2820, 1: 2813})
 ```
-![](./wilImage/img8.png)
+![](./wilImage/img8.png)   
+확실히 SMOTE와 ADASYN을 비교하였을때 ADASYN에서 생성된 데이터들이 MD에 몰려있는 것으로 보아 가중치의 존재를 볼 수 있다.   
+~~(그리고 polygon스러운 모습들도)~~
 # 다른 모델들 둘러보기
 ~~(남은 시간이 얼마 없어서 설명은 생략 ㅎㅎ)~~
 분류에 사용할 수 있는 모델들이 많아 다음 모델들을 서로 비교해 보기로 했다:
@@ -378,7 +380,8 @@ ADASYN Counter({0: 2820, 1: 2813})
 - LightGBM
 - SVC
 - Logistic Regression
-- KNN Classifier
+- KNN Classifier   
+
 이들을 저번에 공부한 `RandomForest`와 `DecisionTree`의 성능과 비교해 보기로 했다. 데이터로는 `sklearn`의 유방암 데이터로 했다.   
 비교는 Classification Metrics와 ROC-AUC를 보기로 했다.
 ```python
